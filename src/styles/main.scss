@@ -1,0 +1,30 @@
+body {
+  justify-content: center;
+  text-align: center;
+  background-image: url("../../src/images/motherboard.jpeg");
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: whitesmoke;
+  font-size: 150%;
+  font-weight: bolder;
+  width: auto;
+  h1,
+  p {
+    background-color: rgba(96, 96, 96, 0.75);
+    padding: 10px;
+    margin: 0px;
+  }
+  #JokesDisp {
+    align-items: center;
+    width: auto;
+  }
+  button {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #ccb573;
+    color: whitesmoke;
+  }
+}

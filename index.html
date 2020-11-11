@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geeky Jokes</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Put all stylesheets here-->
+    <link rel="stylesheet" href="./public/stylesheets/main.css" />
+    <!--Sass --watch src/styles:public/stylesheets-->
+    <!--^^In the Console^^  Make sure you're in the main directory, and then copy and paste the line, Watch folder styles in the src (or app) folder. Semicolon next. Lastly, type out the output, Which is going to be in your public folder-->
+  </head>
+  <body>
+    <header><h1>Geek Jokes</h1></header>
+    <main>
+      <div id="JokesDisp"></div>
+      <button id="NewJokeButton" onclick="newJoke()">Gimme a Joke!</button>
+    </main>
+  </body>
+  <script src="./src/GeekJokes.js"></script>
+</html>
